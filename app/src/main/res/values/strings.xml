@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MidTerm</string>
+    <string name="add">Add</string>
+    <string name="website_name">Website Name</string>
+    <string name="website_type">Website Type</string>
+    <string name="release">Release</string>
+    <string name="website">Website</string>
+    <string name="webs">Webs</string>
+    <string name="website_form">Website Form</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="web">Web</string>
+    <string name="website_name_and_website_cannot_be_empty">Website name and website cannot be empty</string>
+</resources>

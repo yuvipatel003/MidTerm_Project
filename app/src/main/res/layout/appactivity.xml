@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <yuvraj.midterm_project.ui.home.events.Home xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#efefff"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textSize="28sp" />
+
+    </yuvraj.midterm_project.ui.home.events.Home>
+
+</FrameLayout>

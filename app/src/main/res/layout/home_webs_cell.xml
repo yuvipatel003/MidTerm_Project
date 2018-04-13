@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/website_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/website_type"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+      />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/release_year"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/website_name"/>
+
+    <Button
+        android:id="@+id/getWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/website_type"
+        android:text="Open Website"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/getWebsite"
+        android:layout_marginTop="2dp"
+        android:text="Edit"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_marginBottom="8dp"
+        android:paddingEnd="45dp"/>
+
+</RelativeLayout>
